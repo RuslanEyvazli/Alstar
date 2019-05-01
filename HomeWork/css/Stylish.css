@@ -1,0 +1,289 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+#Header{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center center ;
+    position: relative;
+}
+.stylish{
+    padding: 150px 0px 155px 250px;
+    box-sizing: border-box;
+}
+.stylish h1{
+    font-family:  'Source Sans Pro'; 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+    font-weight: 700;
+    font-size: 105px;
+}
+.stylish p{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 33px
+}
+.stylish button ,.section-1 button{
+    padding: 25px 50px;
+    margin-top: 30px
+} 
+.stylish button:hover{
+    background: #1d809f
+}
+.stylish button span ,.section-1 button span{
+    font-weight: 700;
+}
+.item{
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    border-radius: 4px;
+    background: rgba(52,58,64,.5);
+    padding: 10px 16px
+}
+.item:hover{
+    background: rgba(52,58,64,1);
+    color: white;
+}
+.item2{
+    top: 570px;
+    padding:  10px 20px;
+    z-index: 3
+}
+.item3{
+    display: none;
+    z-index: 2;
+}
+.ico:active .item1,.ico:active.item2 {
+    display: none !important
+}
+.ico:active .nav-aside , .ico:active .item3{
+    display: block !important;
+}
+.nav-aside{
+    position:fixed;
+    top: 0%;
+    right: 0%;
+    background: #1d809f;
+    padding-bottom: 280px ;
+    display: none;
+    border-left: 1px solid rgba(45, 117, 139, 0.9);
+    z-index: 1;
+}
+.nav-aside ul li{
+    padding: 15px 15px ;
+    list-style: none;
+}
+.nav-aside ul li a{
+    text-decoration: none;
+    color: white
+}
+.nav-aside ul .eti{
+    font-size: 25px;
+    background: rgba(52,58,64,.1);
+    padding: 20px ;
+    padding-right: 75px
+}
+.nav-aside ul .ite:hover{
+    background: rgba(255, 255, 255,.2)
+}
+#Section-1{
+    background: #f8f9fa;
+    padding-right: 10px;
+    
+}
+.section-1 h3{
+    font-weight: 700;
+    padding-bottom: 10px;
+    
+}
+.section-1 p{
+    font-weight: 300;
+    font-size: 24px;
+    padding-bottom: 10px
+}
+.section-1 {
+   padding: 140px 0px;
+}
+.section-1 button{
+    background: #343a40;
+    border: none
+}
+.section-1 button:hover{
+    background: #212529
+}
+.Find ,.scale{
+    width: 80%;
+   margin: auto
+}
+#Section-2{
+    background: #1d809f ;
+}
+.offer{
+    width: 80%;
+    margin: auto;
+    padding: 150px 0px;
+    box-sizing: border-box
+}
+.Resi i{
+    border-radius: 50%;
+    background: white;
+    color: #007bff;
+    width: 150px;
+    height: 150px;;
+    font-size: 50px;
+    padding-top: 50px
+}
+.Resi h3 {
+    color:white;
+    font-size: 32px;
+    font-weight:700 ;
+    padding-top: 20px
+}
+.Resi p{
+    color: rgba(255,255,255,.7);
+    font-size: 18px
+}
+.offerH h4 ,.Portfolio h4{
+    color: #ecb807!important;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700
+}
+.offerH h2,.Portfolio h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 700
+}
+.DFlex{
+    padding-top: 50px
+}
+#Section-3{
+    background:  url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-3 h1{
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 20px
+}
+.section-3{
+    padding-top:300px;
+    padding-bottom: 250px
+}
+.Portfolio h2{
+    color:#212529;
+    padding-bottom: 50px
+}
+.Scale{
+    transition:clip-path .25s ease-out,background-color .7s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    position: relative;
+    transition: clip-path 0.5s ;
+    clip-path: inset(0);
+}
+.Scale-1{
+    width: 100%;
+    text-align: initial;
+    overflow: hidden;
+}
+.Scalel h2{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin: 150px 70px 0px 70px;
+    z-index: 5;
+    position: relative;
+}
+.Scalel p{
+    position: relative;
+    color: white;
+    font-size: 22px;
+    z-index: 5;
+    font-weight: 300;
+    padding-bottom:100px;
+    margin: 5px 76px 10px 76px
+}
+.Scalel{
+    transition:clip-path .25s ease-out,background-color .7s;
+    text-align: initial;
+    position: absolute;
+    top:50px;
+    left:20px;
+    z-index: 7;
+}
+.Scale:hover {
+    clip-path:inset(2rem);
+    transition:clip-path .25s ease-out,background-color .7s;
+    transition: all 0.5s ;
+}
+.Scale:hover .Scalebox{
+    display: block
+}
+.Scalebox{
+    display: none;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #1d809f;
+    opacity: .7;
+    overflow: hidden;
+}
+#section-4{
+    padding-top: 120px;
+    padding-bottom: 100px
+}
+#section-5{
+    background: #007bff
+}
+.section-5{
+    padding-top: 100px
+}
+.section-5  h2{
+    padding-left: 150px;
+    color: white ;
+    font-weight: 700
+}
+.section-5  .but{
+    padding-left: 300px
+}.section-5 button{
+    font-weight: 700;
+    padding: 20px 30px;
+    margin:20px 20px 100px 20px
+}       
+#Footer{
+    width: 80%;
+    margin: auto;
+}
+.JCC{
+    padding-top: 100px;
+}
+.Foot{
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: #007bff; 
+}
+.Foot i{
+    padding-top: 28px;
+    color: white
+}
+.Foot:hover{
+    background: #1d809f
+}
+.copy{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color:#6c757d;
+    font-size: 15px
+}

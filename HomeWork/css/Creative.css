@@ -1,0 +1,174 @@
+*{
+    padding: 0%;
+    margin: 0%
+}
+body{
+    font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#Header{
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 100px
+}
+.Headerbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(92,77,66,.8);
+    z-index: 1;
+}
+.Navmenu a{
+    font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 700;
+    color:rgba(255,255,255,.7)!important;
+    z-index: 9;
+    position: relative
+    /* position relative??? */
+}
+.Navmenu li{
+    margin-left: 15px
+}
+.Navmenu  a:hover{
+    color: white !important
+}
+.HeaderH{
+    z-index: 10;
+    position: relative
+}
+.HeaderH h1{
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 700;
+    padding-top: 70px
+}
+.HeaderH p,.Section-1H p{
+    color:rgba(255,255,255,.7);
+    font-size: 25px
+}
+.HeaderH button ,.Section-1H button,.Section-4H button{
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    background: #f4623a;
+    padding: 20px 30px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.HeaderH button:hover{
+    background:rgba(241, 70, 23, 1);
+    transition: all 0.2s 
+}
+.HeaderH hr,.Section-1H hr,.Section-2H hr,.Footer hr{
+    background:#f4623a;
+    height: 4px;
+    width: 8%;
+    margin: 20px auto ;
+}
+#Section-1{
+    background: #f4623a;
+    padding: 145px 0px;
+    
+}
+.Section-1H button,.Section-4H button{
+    background: #ffffff;
+    color: #212529;
+    margin-top: 10px;
+    border: none
+}
+.Section-1H button:hover{
+    background: #f8f9fa
+}
+.Section-1H h2,.Section-4H h2{
+    color: #ffffff;
+}
+.Section-1H hr{
+    background: #ffffff
+}
+.Section-1H p{
+    font-size: 20px;
+    font-weight: 600
+}
+.Ico{
+    font-size: 75px;
+    color: #f4623a
+}
+.IcoP h3{
+    font-weight: 400
+}
+.IcoP p,.Footer p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #6c757d
+}
+#Section-2,#Section-4{
+    padding: 145px 0px
+}
+#Section-3 img{
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%
+}
+  .box{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:  rgba(244,98,58,.9);
+    padding-top: 80px;
+    display: none;
+}
+.box h4{
+    color:rgba(255,255,255,.5);
+    font-size: 20px
+}
+.box p{
+    font-size: 30px;
+    font-weight: 500;
+    color: white
+}
+.png:hover .box{
+    display: block;
+}
+#Section-4{
+    background: #212529
+}
+.Section-4H button:hover{
+    background: #f8f9fa
+}
+
+.Footer h2{
+    color: #212529;
+    padding-top: 145px 
+}
+.Fot i{
+    font-size: 70px;
+    color: #6c757d
+}
+.Fot p{
+    color: #212529;
+    padding-top: 20px
+}
+.Fot a{
+    color: #f4623a
+}
+.Fot a:hover{
+    color: #d45633
+}
+.Fot{
+    padding-top: 40px
+}
+.Copy{
+    background: #f8f9fa;
+    color:#6c757d ;
+    padding: 50px 0px;
+    margin-top: 140px
+}
+

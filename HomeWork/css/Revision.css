@@ -1,0 +1,506 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(../image/bg_img01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative
+}
+header,section,footer{
+    width: 83%;
+    margin: auto
+}
+#Header{
+    background-color: white;
+    height: 120px;
+}
+.HeaderWrapper{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderRight{
+    padding-top: 55px
+}
+.HeaderRight ul .UlRelative li{
+    list-style: none;
+    padding-bottom: 8px;
+}
+.HeaderRight ul .UlRelative {
+    display: inline-block;
+    margin-left:15px
+}
+.HeaderRight ul .UlRelative li a{
+    text-decoration: none;
+    font-size:14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 17px ;
+    color: #959595
+}
+.HeaderRight ul .UlRelative .Home a{
+    color: black
+}
+.HeaderLeft{
+    font-size: 38px;
+    font-weight: 900;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+    padding-top: 35px;
+    color: #333;
+}
+.HeaderLeft span {
+    color: #fec901
+}
+.UlRelative{
+    position: relative;
+    margin-bottom: 10px
+}
+.UlAbsolute{
+    position: absolute;
+    top: 30px ;
+    left: 0%;
+    display: none;
+    background: #333;
+    width: 190px;
+    border: none;
+    border-radius: 4px ;
+    /* box-shadow: 1px 1px 2px  4px #333 ; */
+    opacity:  0.9;
+    cursor: pointer;
+    z-index: 1
+}
+.UlAbsolute1{
+    height: 125px;
+}
+.UlAbsolute2{
+    height:156px
+}
+.UlAbsolute3{
+    height: 94px
+}
+.UlAbsolute4{
+    height: 187px;
+}
+.UlAbsolute div  {
+    padding: 4px 20px;
+}
+.UlAbsolute .Div{
+    border-bottom: 0.1px solid #959595
+}
+.UlAbsolute div a{
+    text-decoration: none;
+    color: #c2c2c2;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    word-spacing: 1px;
+    font-weight: 500;
+}
+.UlRelative:hover .UlAbsolute{
+    display: block;
+    transition: 2s ease
+}
+.UlRelative:hover .A{
+    color:#333
+}
+.UlAbsolute div a:hover {
+    color: white
+}
+.ag a{
+    color:white !important;
+}
+.Section{
+    background-color: #fec901;
+    height: 550px;
+    position: relative;
+}
+.Ico{
+    position: absolute;
+    width: 35px;
+    height: 75px;
+    top:45%;
+    border: none;
+    background: #c29e1b;
+    opacity:1;
+    border-radius: 4px;
+    display: none;
+    cursor: pointer
+}
+.Ico i{
+    color: white ;
+     margin:26px 12px;
+}
+.left{
+    left :20px
+}
+.right{
+    right:20px;
+}
+.Section:hover .Ico{
+    display: block;
+}
+.Ico:hover{
+    background: #705c12;
+}
+.Head{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    border: none;
+    border-radius: 4px;
+    background: #333;
+    cursor: pointer;
+    color: white;
+    right: 20px;
+    bottom:25px;
+}
+.Head a{
+    color: white
+}
+.Head1 a{
+    color: #333;
+}
+.Head1 i{
+    margin-top:11px;
+    margin-left: 15px
+}
+.Head i{
+    margin-top:14px;
+    margin-left: 15px
+}
+.Head:hover{
+    background: #fec901;
+    transition: 0.3s
+}
+.Head1:hover i{
+    color: #fec901;
+    transition: 0.3s
+}
+.Head1{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    border: none;
+    border-radius: 4px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    background: white;
+    cursor: pointer;
+}
+.Head1{
+    right: 0%;
+    top:100px
+}
+.SectionWrapper{
+    width:85%;
+    display:flex;
+    justify-content: space-between;
+    margin:auto
+}
+.Photo img{
+    width: 175px;
+    height:175px
+}
+.Photo1 ,.Photo3,.Photo2,.Photo4{
+    float:left
+}
+.Photo1 ,.Photo3{
+    margin-right: 10px;
+}
+.Photo1 ,.Photo2{
+    margin-bottom: 5px;
+}
+.SectionPhoto{
+     width: 45% ;
+     margin: 100px 0px
+    }
+.Sectionletter{
+    width: 55%;
+    margin-top:140px
+}
+.Purchase{
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    width: 170px;
+    height: 38px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 2px;
+    overflow: hidden;
+}
+.Purchase:hover{
+    color: white;
+    background: #333;
+    transition: 0.1s 
+}
+.Sectionletter p{
+    color: white;
+    margin-top:30px;
+    margin-bottom: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Sectionletter h1{
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 55px
+}
+#SectionFirst{
+    height: 800px;
+    background: white
+}
+.SectionFW{
+    width: 88%;
+     margin: auto;
+     padding-top: 100px
+}
+.FH{
+    height: 160px;
+    position: relative;
+    width: 30.5%;
+    float: left;
+}
+.FHIco{
+    border:none;
+    border-radius: 50%;
+    background: #333;
+    width: 38px;
+    height:38px;
+    float: left;
+}
+.FH1,.FH2{
+    margin-right: 22px
+}
+.FHIco i{
+    margin-top: 11px;
+    margin-left: 11px;
+    color: white;
+    font-size: 15px
+}
+.FH h3{
+    padding-left: 48px;
+    padding-top: 9px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #333;
+}
+.FH p{
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #959595;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Learn{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    display: none;
+}
+.Learn button{
+    color: white;
+    background: #ccc;
+    border: none;
+    border-radius: 4px;
+    padding:3px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    padding: 5px 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Learn button:hover{
+    background: #fec901 ;
+    transition: 0.5s
+}
+.FH:hover .Learn{
+    display: block
+}
+.FW{
+    display: flex;
+    width: 88%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px
+}
+.Scale{
+    display: inline-block;
+    position: relative;
+    overflow: hidden !important;
+    border-bottom: 3px solid #fec901;
+    height: 241px;
+}
+.Scale img{
+    width:241px;
+    height: 241px;
+}
+.box{
+    background: #fec901;
+    opacity: 0.90;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: none;
+    transition:all 10s ease;
+}
+.Scale:hover  .box{
+    display: block;
+}
+.Scale:hover img{
+    transform: scale(1.1);
+    transition:all 0.5s ease;
+}
+.icoa ,.icob{
+    text-decoration: none;
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.icob{
+    margin-left: 65px;
+    line-height: 7;
+    transition: all 0.2s ease
+}
+.icob:hover{
+    color: #333
+}
+.boxico{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 101px;
+    margin-left: 45%;
+    transition: all 0.2s ease
+}
+.boxico:hover {
+    display: block;
+    background: #333;
+    transition: all 0.2s ease
+}
+.icoa {
+    margin-left: 12px;
+}
+.icoa i{
+    line-height: 3
+}
+.cloud img{
+    width: 180px;
+    height:100px
+}
+.cloud{
+    border : 1px solid #c2c2c2;
+    opacity: 0.7;
+    cursor: pointer
+}
+.cloud:hover{
+    opacity: 1;
+    box-shadow: 2px 2px 9px 0px #c2c2c2;
+    transition: all 0.3s ease-in-out
+}
+.FM{
+    margin-top: 100px
+}
+#Footer{
+    height: 360px;
+    width: 83%
+}
+.FooterWrapper{
+    width: 100%
+}
+.TopFooter{
+    height: 300px;
+    background: #333;
+}
+.TFW{
+    padding-top: 70px
+}
+.TopRight h3{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -2px
+}
+.TopRight h3 span{
+    color: #fec901
+}
+.TopRight p{
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #636363;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.BottomFooter{
+    height: 60px;
+    background: #2c2c2c;
+    margin: auto
+}
+.TopRight{
+    width: 25%
+}
+.TopLeft{
+    width:55%
+}
+.BottomFooter ul{
+ display: flex;
+ list-style: none;
+}
+.BottomFooter ul li a{
+    text-decoration: none;
+    color:#959595;
+    font-weight: 700
+}
+.BFL ul li{
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #636363;
+    margin-right: 25px
+}
+.BottomFooter ul li a:hover{
+    color: #fec901;
+    transition: all 0.2s ease
+}
+.BFW, .TFW{
+    width: 88%;
+    margin: auto
+}
+ .BFL{
+     float: left;
+     margin-top: 22px
+ }  
+ .BFR{
+     float: right;
+     margin-top: 22px
+ }
+.BFR ul li{
+    border: none;
+    border-radius: 4px;
+    width: 25px;
+    height: 25px;
+    background: #636363;
+    margin-left: 10px
+}
+.BFR ul li i{
+    margin-left: 8px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer
+}
+.BFR ul li i:hover {
+    color: #fec901;
+    transition: all 0.2s ease
+}

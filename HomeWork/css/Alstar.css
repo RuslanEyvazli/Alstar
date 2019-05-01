@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+#Header{
+    background: url(https://bootstrapmade.com/demo/themes/Alstar/img/intro/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center
+    
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    padding: 225px 0px
+}
+.Header h1{
+    color: #fff;
+    font-size: 48px;
+}
+.Header p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500
+}
+.Header button{
+    background: none;
+    border: 2px solid #00c1c1;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 30px
+}
+.Header button:hover{
+    background: #00c1c1;
+    transition: all 0.8s ease
+}
+.left i,.right i{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600
+}
+.left{
+    position: absolute;
+    left: 10px;
+    top: 280px
+}
+.right{
+    position: absolute;
+    right: 10px;
+    top: 280px
+}
+.Section-1T{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.Section-1B{
+    display: flex
+}
+.Section-1B img{
+    width: 100%;
+    height: 350px;
+}
+.BB{
+    box-sizing: border-box;
+    padding-top: 15px
+}
+.BB p{
+    font-size: 14px;
+    padding-top: 50px
+}
+#Section-1{
+    padding: 100px 0
+}
+#Setion-2{
+    background: url(https://bootstrapmade.com/demo/themes/Alstar/img/parallax/1.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 250px;
+    
+    
+    z-index: 2;
+    padding: 250px 0px 250px 0px
+}
+
