@@ -54,17 +54,28 @@
     right: 10px;
     top: 280px
 }
-.Section-1T{
+.Section-1T,.Section-3T,.Section-4T,.Section-7T  {
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px
 }
-.Section-1B{
+.Section-1T h2,.Section-3T h2,.Section-4T h2, .Section-7T h2{
+    margin-bottom: 0%
+}
+.Section-1B,.Section-3B{
     display: flex
 }
-.Section-1B img{
+.Section-3T p,.Section-1T p,.Section-4T p,.Section-7T p{
+    font-size: 15px
+}
+.Section-1B img,.Section-3B img{
     width: 100%;
     height: 350px;
+}
+hr{
+    background: black
 }
 .BB{
     box-sizing: border-box;
@@ -74,19 +85,110 @@
     font-size: 14px;
     padding-top: 50px
 }
-#Section-1{
+#Section-1 ,#Section-3,#Section-4,#Section-6,#Section-7,#Section-8{
     padding: 100px 0
 }
-#Setion-2{
+.parallax-1{
     background: url(https://bootstrapmade.com/demo/themes/Alstar/img/parallax/1.jpg);
-    background-attachment:fixed;
-    background-repeat: no-repeat;
+    height: 400px;
     background-size: cover;
-    
-    height: 250px;
-    
-    
-    z-index: 2;
-    padding: 250px 0px 250px 0px
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
 }
-
+.Over-1{
+    color: white;
+    position: absolute;
+    top: 45%;
+    width: 100%
+}
+.Section-1B img,.Section-3B img{
+    width: 80%;
+    height: 300px;
+}
+.Section-3B p{
+    font-size: 14px
+}
+#Section-4,#Section-7{
+    background: #f8f8f8
+}
+.b{
+    padding: 10px 10px;
+    cursor: pointer;
+    
+}
+.b img{
+width: 100%
+}
+.parallax-2{
+    background: url(https://bootstrapmade.com/demo/themes/Alstar/img/parallax/2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    height: 350px;
+}
+.photo{
+    background: url(https://bootstrapmade.com/demo/themes/Alstar/img/team/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 50%
+}
+.a{
+    margin: 10px 10px
+}
+.pb{
+    line-height: 30px;
+    margin-bottom: 15px !important;
+    border: 1px solid #ccc;
+    height: 35px;
+    color: #ccc
+}
+.jc{
+    justify-content: center
+}
+input, textarea{
+    font-size: 15px !important
+}
+textarea{
+    height: 130px !important;
+}
+.jc button{
+    height: 50px;
+    background: #00c1c1;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase
+}
+.jc button:hover{
+    background: white;
+    color: rgb(179, 178, 178)
+}
+.i i{
+    font-size: 50px;
+    color: #00c1c1;
+    padding-bottom: 15px
+}
+.i p{
+    font-size: 15px;
+    padding-top: 10px
+}
+.bor{
+    background: #00c1c1;
+    border-radius: 50%;
+    color: white;
+    height: 50px;
+    margin: auto;
+    line-height: 10px;
+    padding-top: 15px
+}
+.son h4{
+    padding: 10px 0
+}
+footer{
+    padding: 50px 0;
+    background: #00c1c1;
+    color: white
+}
